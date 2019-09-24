@@ -7,7 +7,7 @@
 
 import { Event } from "@robotlegsjs/core";
 
-import { Container } from "pixi.js";
+import { Container } from "pixi.js-legacy";
 
 /**
  * View Configuration Event

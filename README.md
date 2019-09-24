@@ -64,11 +64,11 @@ Usage
 ---
 
 ```typescript
-/// <reference path="node_modules/@robotlegsjs/pixi/definitions/pixi.d.ts" />
+/// <reference path="node_modules/@robotlegsjs/pixi/definitions/pixi.js-legacy.d.ts" />
 
 import "reflect-metadata";
 
-import PIXI = require('pixi.js');
+import PIXI = require('pixi.js-legacy');
 
 import { Context, MVCSBundle } from "@robotlegsjs/core";
 import { ContextView, PixiBundle } from "@robotlegsjs/pixi";

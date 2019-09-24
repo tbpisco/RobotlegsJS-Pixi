@@ -5,7 +5,7 @@
 //  in accordance with the terms of the license agreement accompanying it.
 // ------------------------------------------------------------------------------
 
-/// <reference path="../definitions/pixi.d.ts" />
+/// <reference path="../definitions/pixi.js-legacy.d.ts" />
 /// <reference types="mocha" />
 
 import "reflect-metadata";

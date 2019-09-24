@@ -5,7 +5,7 @@
 //  in accordance with the terms of the license agreement accompanying it.
 // ------------------------------------------------------------------------------
 
-import { DisplayObject } from "pixi.js";
+import { DisplayObject } from "pixi.js-legacy";
 
 import { IClass } from "@robotlegsjs/core";
 

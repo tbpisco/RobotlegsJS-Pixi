@@ -63,14 +63,13 @@
   },
   "peerDependencies": {
     "eventemitter3": "^2.0.0",
-    "pixi.js": "^4.2.1",
+    "pixi.js-legacy": "^5.1.4",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.27",
     "@types/chai": "^4.2.0",
     "@types/mocha": "^5.2.7",
-    "@types/pixi.js": "^4.8.8",
     "@types/sinon": "^7.0.13",
     "@types/webpack-env": "^1.14.0",
     "bluebird": "^3.5.5",
@@ -96,7 +95,7 @@
     "karma-webpack": "^4.0.2",
     "mocha": "^6.2.0",
     "open-browser-webpack-plugin": "^0.0.5",
-    "pixi.js": "^4.8.8",
+    "pixi.js-legacy": "^5.1.4",
     "prettier": "^1.18.2",
     "publish-please": "^5.5.1",
     "puppeteer": "^1.19.0",

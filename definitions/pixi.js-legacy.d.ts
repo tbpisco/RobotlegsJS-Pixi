@@ -5,7 +5,7 @@ import { IEvent } from "@robotlegsjs/core";
 /**
  * Augment PIXI module to recognize IEventDispatcher patch.
  */
-declare module "pixi.js" {
+declare module "pixi.js-legacy" {
     interface IEventDispatcher {
         addEventListener(type: string | symbol, listener: Function, context?: any): void;
         hasEventListener(type: string | symbol, listener?: Function): boolean;

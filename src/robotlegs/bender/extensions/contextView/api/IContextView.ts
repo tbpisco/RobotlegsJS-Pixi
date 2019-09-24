@@ -5,7 +5,7 @@
 //  in accordance with the terms of the license agreement accompanying it.
 // ------------------------------------------------------------------------------
 
-import { Container } from "pixi.js";
+import { Container } from "pixi.js-legacy";
 
 export let IContextView = Symbol("IContextView");
 export interface IContextView {

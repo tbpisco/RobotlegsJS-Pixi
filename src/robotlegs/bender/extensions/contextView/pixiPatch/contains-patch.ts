@@ -9,7 +9,7 @@
  * Patch PIXI.Container class to add implementation of contains method.
  */
 
-import { Container, DisplayObject } from "pixi.js";
+import { Container, DisplayObject } from "pixi.js-legacy";
 
 const ContainerMixin = {
     /**

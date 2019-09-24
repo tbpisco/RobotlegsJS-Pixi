@@ -12,7 +12,7 @@
  * - Implements event bubbling on `dispatchEvent` when `bubbles` is true.
  */
 
-import { DisplayObject } from "pixi.js";
+import { DisplayObject } from "pixi.js-legacy";
 import { EventEmitter } from "eventemitter3";
 import { IEvent } from "@robotlegsjs/core";
 

@@ -25,6 +25,6 @@
     "./src/**/*.ts"
   ],
   "files": [
-    "./definitions/pixi.d.ts"
+    "./definitions/pixi.js-legacy.d.ts"
   ]
 }
