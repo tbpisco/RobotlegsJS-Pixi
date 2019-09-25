@@ -5,7 +5,7 @@
 //  in accordance with the terms of the license agreement accompanying it.
 // ------------------------------------------------------------------------------
 
-import { Container, Graphics } from "pixi.js";
+import { Container, Graphics } from "pixi.js-legacy";
 
 export class SmileyView extends Container {
     private _radius: number;

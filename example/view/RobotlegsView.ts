@@ -5,7 +5,7 @@
 //  in accordance with the terms of the license agreement accompanying it.
 // ------------------------------------------------------------------------------
 
-import { Container, Sprite } from "pixi.js";
+import { Container, Sprite } from "pixi.js-legacy";
 
 export class RobotlegsView extends Container {
     private robotlegsLogo: Sprite;
@@ -20,7 +20,7 @@ export class RobotlegsView extends Container {
 
     private loadLogo(): void {
         // create a PIXI sprite from an image path
-        this.robotlegsLogo = Sprite.fromImage("images/robotlegs.png");
+        this.robotlegsLogo = Sprite.from("images/robotlegs.png");
 
         // add logo
         this.addChild(this.robotlegsLogo);
