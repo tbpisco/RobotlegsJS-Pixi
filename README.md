@@ -31,20 +31,20 @@ yarn add @robotlegsjs/pixi
 From version `0.2.0` of this package, the [PixiJS](https://github.com/pixijs/pixi.js) dependencies were moved to **peerDependencies**,
 allowing the final user to choose the desired version of the `pixi.js` library on each project.
 
-The `@robotlegsjs/pixi` package is compatible with versions between the `>=4.2.1 <5` version range of `pixi.js` library.
+The `@robotlegsjs/pixi` package is compatible with `pixi.js-legacy` library.
 
 Since each version of `pixi.js` library defines which version of `eventemitter3` library is being used, remember to also install the proper version of `eventemitter3` in your project.
 
-As example, when you would like to use the version `4.2.1` of `pixi.js` library, you can run:
+As example, when you would like to use the version `5.1.4` of `pixi.js` library, you can run:
 
 ```bash
-npm install pixi.js@4.2.1 eventemitter3@^2.0.0 reflect-metadata --save
+npm install pixi.js-legacy@5.1.4 eventemitter3@^2.0.0 reflect-metadata --save
 ```
 
 or
 
 ```bash
-yarn add pixi.js@4.2.1 eventemitter3@^2.0.0 reflect-metadata
+yarn add pixi.js-legacy@5.1.4 eventemitter3@^2.0.0 reflect-metadata
 ```
 
 Then follow the [installation instructions](https://github.com/RobotlegsJS/RobotlegsJS/blob/master/README.md#installation) of **RobotlegsJS** library to complete the setup of your project.
@@ -80,12 +80,12 @@ export class Game {
 
     private canvas: HTMLCanvasElement;
     private stage: PIXI.Container;
-    private renderer: PIXI.CanvasRenderer | PIXI.WebGLRenderer;
+    private renderer: PIXI.CanvasRenderer | PIXI.Renderer;
     private context: Context;
 
     constructor () {
         this.canvas = <HTMLCanvasElement>(document.getElementById("canvas"));
-        this.renderer = PIXI.autoDetectRenderer(960, 400, { view: this.canvas, backgroundColor: 0xFFFFFF });
+        this.renderer = PIXI.autoDetectRenderer({width:960, height: 400, view: this.canvas, backgroundColor: 0xffffff });
         this.stage = new PIXI.Container();
 
         this.context = new Context();
